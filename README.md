@@ -29,7 +29,7 @@ O Quiz da Programação é uma aplicação web desenvolvida para testar e aprimo
 Se você deseja explorar o projeto, pode cloná-lo usando o seguinte comando:
 
 ```bash
-git clone  
+git clone https://github.com/guilhermeguimaraesn/quiz-da-programacao  
 ```
 Depois de clonar o repositório, navegue até o diretório do projeto e instale as dependências necessárias:
 
