@@ -4,7 +4,7 @@
 ## Descrição
 O Quiz da Programação é uma aplicação web desenvolvida para testar e aprimorar os conhecimentos dos usuários em diversas áreas da programação. Permitindo que os usuários respondam a perguntas de múltipla escolha sobre tópicos como linguagens de programação, conceitos fundamentais e práticas de desenvolvimento.
 
-Tive a ideia de desenvolver essa aplicação para treinar os meus conhecimentos em alguma tecnologias que não tinha tanta intimidade assim, me supreendi com o resultado, pois aprendi e desenvolvi vários atributos que eu não tinha antes.
+Tive a ideia de desenvolver essa aplicação para treinar os meus conhecimentos em algumas tecnologias que não tinha tanta intimidade assim, me supreendi com o resultado, pois aprendi e desenvolvi vários atributos que eu não tinha antes.
 
 ## Funcionalidades Principais:
 - **Interface Intuitiva:** Interface de usuário amigável e fácil de navegar, permitindo uma experiência de quiz agradável.
