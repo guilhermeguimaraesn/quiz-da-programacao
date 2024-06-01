@@ -25,6 +25,9 @@ O Quiz da Programação é uma aplicação web desenvolvida para testar e aprimo
 
 - **Roteamento:** [Next.js](https://nextjs.org/docs) para navegação e roteamento entre páginas.
 
+## Acessar o Projeto
+Para testar os seus conehcimentos sobre programação, clique aqui: [Quiz da Programação](https://quiz-da-programacao.vercel.app/)
+
 ## Realizar clone do projeto
 Se você deseja explorar o projeto, pode cloná-lo usando o seguinte comando:
 
