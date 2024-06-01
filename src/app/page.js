@@ -46,13 +46,13 @@ export default function Home() {
   };
 
   return (
-    <div className="w-1/2 bg-blue-100 p-8 rounded flex flex-col justify-center items-center gap-4">
-      <h1 className="text-3xl font-bold">Quiz da Programação</h1>
-      <p className="text-xl text-center">
+    <div className="w-11/12 md:w-1/2 bg-blue-100 p-8 rounded flex flex-col justify-center items-center gap-4">
+      <h1 className="text-2xl md:text-3xl font-bold">Quiz da Programação</h1>
+      <p className="text-base md:text-xl text-center">
         Vamos descobrir o quanto que você sabe sobre Programação
       </p>
       <Image src={computacao} width={375} height={275} className="rounded" />
-      <div className="flex flex-col w-2/3">
+      <div className="flex flex-col w-11/12 md:w-2/3">
         <form onSubmit={SalvarNome} className="flex flex-col">
           <label className="font-bold">Quem está jogando?</label>
           <input

@@ -228,16 +228,16 @@ const Quiz = () => {
   };
 
   return (
-    <div className="w-1/2 bg-blue-100 h-auto p-4 rounded flex flex-col justify-center items-center gap-4">
+    <div className="w-11/12 md:w-1/2 bg-blue-100 h-auto p-4 rounded flex flex-col justify-center items-center gap-4">
       <ToastContainer />
       <div className="flex justify-between w-full">
-        <p className="bg-blue-300 p-4 rounded font-bold text-blue-600">
+        <p className="text-xs p-2 bg-blue-300 md:p-4 sm:text-base rounded font-bold text-blue-600">
           Pergunta{" "}
           <span>
             {atualQuestion + 1} de <span>{questions.length}</span>
           </span>
         </p>
-        <p className="bg-blue-300 p-4 rounded font-bold text-blue-600">
+        <p className="text-xs p-2 bg-blue-300 sm:p-4 sm:text-base rounded font-bold text-blue-600">
           Sua pontuação <span>{pontos}</span>
         </p>
       </div>
@@ -253,7 +253,7 @@ const Quiz = () => {
       <div className="flex gap-4 flex-col w-full">
         {questions[atualQuestion].options.map((option) => (
           <button
-            className="bg-blue-600 px-2 py-2 rounded text-white hover:brightness-90 w-full"
+            className="text-xs sm:text-sm md:text-base bg-blue-600 px-2 py-2 rounded text-white hover:brightness-90 w-full"
             onClick={() => respostaOpcao(option)}
             key={option}
             disabled={desativarBotao}

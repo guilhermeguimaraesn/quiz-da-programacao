@@ -67,11 +67,11 @@ export default function Result() {
   }, []);
 
   return (
-    <div className="w-1/2 bg-blue-100 p-8 rounded flex flex-col justify-center items-center gap-4">
-      <h1 className="text-3xl font-bold">Resultado do Quiz da Programação</h1>
+    <div className="w-11/12 sm:w-1/2 bg-blue-100 p-8 rounded flex flex-col justify-center items-center gap-4">
+      <h1 className="text-xl sm:text-3xl font-bold">Resultado do Quiz da Programação</h1>
       <Image src={foto} width={350}
           height={250}/>
-      <p className="text-center">
+      <p className="text-sm sm:text-base text-center">
         {message} <br></br>
         Você acertou <strong>{pontos}</strong> de <strong>10</strong> perguntas
        </p>
